@@ -6,24 +6,23 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 
 
 <body>
-
-    <header id="header">
-        <div>
-            <!--     Logo img. insert-image-->
-            <img
-                    src=""
-                    id="header-img"
-                    class="image"
-                    alt="img.logo"
-            />
+    <div class="header-container">
+        <header id="header" class="topbar">
             <!--Nav bar-->
-            <nav id="nav-bar">
-                <ul>
+            <nav id="nav-bar" class="nav">
+                <!--     Logo img. insert-image-->
+                <img
+                        src="https://file:///Users/joaobarros/Projects/Landing-Page/images/logo.png"
+                        id="header-img"
+                        class="image"
+                        alt="img.logo"
+                />
+                <ul class="features">
                     <li>
                         <a class="nav-link" href="#features"> Features</a>
                     </li>
@@ -37,76 +36,83 @@
                     </li>
                 </ul>
             </nav>
-        </div>
+        </header>
 
-    </header>
 
-    <div>
-        Section1
-        <p>
-        <section id="hero">
-            <h2>Handcrafted, home-made masterpieces</h2>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
-                <input id="submit" type="submit" value="Get Started" class="btn">
-            </form>
-        </section>
-        </p>
-    </div>
 
-    <div id="features">
-        Section2
-    </div>
-<!--        video-->
-    <div id="watch-it">
-        Section 3
-        <p>
-            <iframe id="video" width="420" height="315"
-                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
-            </iframe>
-        </p>
-    </div>
 
-    <div id="prices">
-        <div>
-            <div>
-                <h1> Low Quality
-                    <h2>
-                        <ul>
-                            <li>Lorem ipsum.</li>
-                            <li>Lorem ipsum.</li>
-                            <li>Lorem ipsum dolor.</li>
-                            <li>Lorem ipsum.</li>
-                        </ul>
-                        <button>Select1</button>
-                    </h2>
-                </h1>
-            </div>
-            <div>
-                <h1> Medium Quality
-                    <h2>
-                        <ul>
-                        <li>Lorem ipsum.</li>
-                        <li>Lorem ipsum.</li>
-                        <li>Lorem ipsum dolor.</li>
-                        <li>Lorem ipsum.</li>
-                    </ul>
-                        <button>Select2</button>
-                    </h2>
-                </h1>
-            </div>
-            <div>
-                <h1> High quality
-                    <h2>
-                        <ul>
-                            <li>Lorem ipsum.</li>
-                            <li>Lorem ipsum.</li>
-                            <li>Lorem ipsum dolor.</li>
-                            <li>Lorem ipsum.</li>
-                        </ul>
-                        <button>Select3</button>
-                    </h2>
-                </h1>
+        <div class="main-container">
+            <div class="main">
+                <div class="box-main">
+                    <div>
+                            <section id="hero">
+                                <h2>Handcrafted, home-made masterpieces</h2>
+                                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                                    <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
+                                    <input id="submit" type="submit" value="Get Started" class="btn">
+                                </form>
+                            </section>
+                    </div>
+
+
+                    <div id="features">
+                        <div class="description">
+                            <div>
+
+                            </div>
+                            Section2
+                        </div>
+                    </div>
+
+
+                    <!--        video-->
+                    <div id="watch-it">
+                        <div class="video-box">
+                            <iframe id="video" width="420" height="315"
+                                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                            </iframe>
+                        </div>
+
+                    </div>
+
+                    <div id="prices">
+                        <div class="table-cards">
+                            <div class="cards">
+                                <h1> Low Quality</h1>
+                                <h2>600€</h2>
+                                    <ul>
+                                        <li>Lorem ipsum.</li>
+                                        <li>Lorem ipsum.</li>
+                                        <li>Lorem ipsum dolor.</li>
+                                        <li>Lorem ipsum.</li>
+                                    </ul>
+                                    <button>Select1</button>
+                            </div>
+                            <div class="cards">
+                                <h1> Medium Quality</h1>
+                                <h2> 900€</h2>
+                                    <ul>
+                                        <li>Lorem ipsum.</li>
+                                        <li>Lorem ipsum.</li>
+                                        <li>Lorem ipsum dolor.</li>
+                                        <li>Lorem ipsum.</li>
+                                    </ul>
+                                    <button>Select2</button>
+                            </div>
+                            <div class="cards">
+                                <h1> High quality</h1>
+                                <h2> 1.200€</h2>
+                                    <ul>
+                                        <li>Lorem ipsum.</li>
+                                        <li>Lorem ipsum.</li>
+                                        <li>Lorem ipsum dolor.</li>
+                                        <li>Lorem ipsum.</li>
+                                    </ul>
+                                    <button>Select3</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
